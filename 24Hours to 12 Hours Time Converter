@@ -1,0 +1,7 @@
+         val parseFormat = SimpleDateFormat("HH:mm")
+         val displayFormat = SimpleDateFormat("hh:mm a")
+         val date = parseFormat.parse("16:12")
+         displayFormat.format(date)
+         
+         output========== 04:12PM
+         
